@@ -1,4 +1,4 @@
-# css-right-way
+# CSS The Right Way
 Workshop files and solutions for CSS the Right Way
 
 Before starting the workshop, download the repository.
