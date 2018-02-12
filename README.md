@@ -15,10 +15,10 @@ You can also drag the file into your browser.
 There is one complex, difficult css *trick* in the aside at the bottom. It has to do with the box-shadows on the round images and round background "Learn More" link, and their being responsive. You'll notice that there is an _extra_ nested div. For an explanation and a hint look at https://css-tricks.com/aspect-ratio-boxes/
 
 ### A Solution
-You may have noticed that there is a solution folder. But keep in mind that __there are as many right answers as there are people in this workshop__,<sup>1</sup> and *__even more wrong answers__*. Try not to look at the potential solution until you're done, or really stuck.
+You may have noticed that there is a solution folder. But keep in mind that __there are as many right answers as there are people in this workshop__,<sup>\*</sup> and *__even more wrong answers__*. Try not to look at the potential solution until you're done, or really stuck.
 
 #### Have fun!
 
 
 
-*1. Some answers are better than others, of course* 
+> *\* Some answers are better than others, of course* 
