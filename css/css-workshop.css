@@ -1,10 +1,16 @@
 /*** Styling for CSS the Right Way ***/
 
-/** palette ***************************************************
-*** yellow light: #ff0; dark: #993; text (on yellow): #663; ***
-*** blue-green: #099;                                       ***
-*** wine: #903;                                             ***
-***************************************************************/
+/********************** PALETTE **********************
+*** text:         #333;   (body text)              ***
+*** a:link        #03c;   (links)                  ***
+*** a:visited     #03c;   (visited link)           *** 
+*** a:hover:      #69f;   (link hover state)       ***
+*** wine:         #903;   (red header)             *** 
+*** blue-green:   #099;   (blue header)            ***
+*** yellow light: #ff0;   (aside background color) ***
+*** yellow dark:  #993;   (aside border color)     ***
+*** text[2]:      #663;   (text on yellow)         ***
+******************************************************/
 
 html {
   height: 100%;
