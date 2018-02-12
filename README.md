@@ -6,7 +6,7 @@ You will find an html file (css-workshop.html), an images folder containing all 
 
 Since all of this is on the front-end, there is no reason to spin up a server. You should be able to view all your changes locally.
 file:///Users/[user]/path/to/css-workshop.html (On a Mac)
-file:///C:/Documents%20and%20ettings/[user]/path/to/css-workshop.html (On Windows)
+file:///C:/Documents%20and%20Settings/[user]/path/to/css-workshop.html (On Windows)
 You can also drag the file into your browser.
 
 There is one complex, difficult css "trick" in the aside at the bottom. It has to do with the box-shadows on the round images and round background "Learn More" link, and their being responsive. You'll notice that there is an "extra" nested div. For an explanation and a hint look at https://css-tricks.com/aspect-ratio-boxes/
