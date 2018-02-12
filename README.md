@@ -1,11 +1,11 @@
 # CSS The Right Way
 ## Workshop files and solutions for CSS the Right Way workshop
 
-### Down load the Repository
+### Download the Repository
 Before starting the workshop, download the repository.
 You will find an html file (css-workshop.html), an images folder containing all the images you'll need along with mock-ups and a spec image of the page we're building. In the css folder you'll find the css file (css-workshop.css), where you'll do most of the work. In the HTML file, feel free to add or remove classes as necessary, but you don't need to alter the markup in any other way.
 
-### Front End Only - No Server Necessary
+### Front-End Only - No Server Necessary
 Since all of this is on the front-end, there is no reason to spin up a server. You should be able to view all your changes locally.
 file:///Users/[user]/path/to/css-workshop.html (On a Mac)
 file:///C:/Documents%20and%20Settings/[user]/path/to/css-workshop.html (On Windows)
