@@ -17,8 +17,6 @@ There is one complex, difficult css *trick* in the aside at the bottom. It has t
 ### A Solution
 You may have noticed that there is a solution folder. But keep in mind that __there are as many right answers as there are people in this workshop__,<sup>\*</sup> and *__even more wrong answers__*. Try not to look at the potential solution until you're done, or really stuck.
 
-#### Have fun!
-
-
-
 ###### *\* Some answers are better than others, of course* 
+
+# Have fun!
