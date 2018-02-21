@@ -203,6 +203,7 @@ footer {
 .aside-link-container a:link,
 .aside-link-container a:visited {
   position: relative;
+  top: 35%;
   color: #fff;
 }
 .aside-link-container a:hover {
@@ -219,5 +220,14 @@ footer {
   .aside-link-container {
     font-size: 1.2em;
     margin-left: 78%;
+  }
+  .aside-link-container a:link,
+  .aside-link-container a:visited {
+    top: 25%;
+  }
+}
+@media (max-width: 449px) {
+  .aside-img-container {
+    padding-top: 18%;
   }
 }
