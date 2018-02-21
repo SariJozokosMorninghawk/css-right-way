@@ -2,12 +2,14 @@
 
 html {
   height: 100%;
+  width: 100%;
 }
 body {
   color: #333;
   font: normal normal 500 14px/1.5 Arial, sans-serif;
   height: 100%;
-  margin: 0;
+  margin: 0 auto;
+  width: 100%;
 }
 a:link,
 a:visited {
@@ -46,7 +48,7 @@ header {
   width: 100%;
 }
 article {
-  margin: 0 auto 55px;
+  margin: 0 auto 55px auto;
   max-width: 1140px;
   width: 100%;
 }
@@ -64,6 +66,11 @@ footer {
   overflow: hidden;
   width: 100%;
 }
+@media (max-width: 768px) {
+  article {
+    width: calc(100% - 20px);
+  }
+}
 
 
 * {
@@ -74,6 +81,9 @@ footer {
 }
 .text-center {
   text-align: center;
+}
+.text-right {
+  text-align: right;
 }
 .text-white {
   color: #fff;
@@ -118,6 +128,7 @@ footer {
 .article-text-760 {
   margin-left: 150px;
   max-width: 760px;
+  overflow: hidden;
   width: 100%;
 }
 .article-text-760 > p {
@@ -126,16 +137,17 @@ footer {
 @media (max-width: 768px) {
   .article-container {
     display: block;
+    margin: 0 auto;
   }
   .article-img-container-350 {
-    margin: 0 auto 15px;
+    margin: 0 auto 15px auto;
   }
   .article-img-container-200 {
-    margin: 20px auto 0;
+    margin: 20px auto 0 auto;
   }
   .article-text-620,
   .article-text-760 {
-    margin: 0 10px;
+    margin-left: 0;
   }
 }
 
@@ -144,14 +156,29 @@ footer {
   max-width: 910px;
   width: 100%;
 }
+/* Used for maintaining width/height aspect ratio for circles
+** images and link */ 
+.aside-container-inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 .aside-images {
   display: flex;
   justify-content: center;
   margin: 20px 0;
 }
 .aside-img-container {
+  border-radius: 100%;
+  box-shadow: 4px 4px 2px 2px rgba(153, 153, 51, 0.5);
+  height: 0;
   margin: 0 30px;
-  width: 165px;
+  overflow: hidden;
+  padding-top: 20%;
+  position: relative;
+  width: 20%;
 }
 .aside-text {
   display: flex;
@@ -162,16 +189,20 @@ footer {
   width: 100%;
 }
 .aside-link-container {
-  border-radius: 146px;
+  border-radius: 100%;
+  box-shadow: 4px 4px 2px 2px rgba(153, 153, 51, 0.5);
   cursor: pointer;
   font-size: 1.5em;
-  height: 146px;
-  padding: 40px;
+  height: 0;
+  line-height: .9;
+  padding-top: 16%;
+  position: relative;
   text-align: center;
-  width: 146px;
+  width: 16%;
 }
 .aside-link-container a:link,
 .aside-link-container a:visited {
+  position: relative;
   color: #fff;
 }
 .aside-link-container a:hover {
@@ -179,10 +210,6 @@ footer {
   text-decoration: none;
 }
 @media (max-width: 768px) {
-  .aside-img-container {
-    margin: 0 10px;
-    width: calc(33% - 20px);
-  }
   .aside-text {
     display: block;
   }
@@ -190,6 +217,7 @@ footer {
     margin: 0 10px 15px;
   }
   .aside-link-container {
-    margin-left: calc(100% - 156px);
+    font-size: 1.2em;
+    margin-left: 78%;
   }
 }
