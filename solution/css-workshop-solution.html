@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Workshop: CSS the Right Way</title>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet">
+  <!--link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" rel="stylesheet"-->
   <link href="css/css-workshop-solution.css" rel="stylesheet">
 </head>
 <body>
@@ -15,7 +15,7 @@
     <article>
       <div class="article-container">
         <div class="article-img-container-350">
-          <img src="images/css-right-way-1.jpg" alt="Gorilla" />
+          <img src="../images/css-right-way-1.jpg" alt="Gorilla" />
         </div>
         <div class="article-text-620">
           <h2 class="text-wine text-bold">Curabitur Condimentum</h2>
@@ -68,10 +68,10 @@
              Aenean aliquam nunc nec elit vehicula, rutrum lacinia tortor
              volutpat. Praesent eu ultrices magna. In eu mauris non sem
              sollicitudin ornare vel nec mi.</p>
-          <div><a href="#">Learn more</a></div>
+          <div class="text-right"><a href="#">Learn more</a></div>
         </div>
         <div class="article-img-container-200">
-          <img src="images/css-right-way-2.jpg" alt="Zebra" />
+          <img src="../images/css-right-way-2.jpg" alt="Zebra" />
         </div>
       </div>
     </article>
@@ -80,13 +80,19 @@
         <h3 class="text-brown text-bold text-center">In hac habitasse platea dictumst. Etiam dui.</h3>
         <div class="aside-images">
           <div class="aside-img-container">
-            <img src="images/css-right-way-3.png" alt="Fox" />
+            <div class="aside-container-inner">
+              <img src="../images/css-right-way-3.png" alt="Fox" />
+            </div>
           </div>
           <div class="aside-img-container">
-            <img src="images/css-right-way-4.png" alt="Wolf" />
+            <div class="aside-container-inner">
+              <img src="../images/css-right-way-4.png" alt="Wolf" />
+            </div>
           </div>
           <div class="aside-img-container">
-            <img src="images/css-right-way-5.png" alt="Panda" />
+            <div class="aside-container-inner">
+              <img src="../images/css-right-way-5.png" alt="Panda" />
+            </div>
           </div>
         </div>
         <div class="aside-text">
@@ -100,7 +106,9 @@
              tempor velit eros sed sem. Integer a sapien elit. Aliquam eget sem
              nisl. Etiam sed egestas tortor.</p>
           <div class="aside-link-container background-brown">
-            <a href="#" class="text-bold">Learn more</a>
+            <div class="aside-container-inner">
+              <a href="#" class="text-bold" style="position: relative;top:35%">Learn<br />more</a>
+            </div>
           </div>
         </div>
       </div>
